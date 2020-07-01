@@ -9,4 +9,5 @@ Using 4 Main Sensor :
 - Humidity and Temperature
 - Dust particle 
 Data is read by NodeMCU ESP32 Board , filtered using Averaging measurement and Recursive Exponential Filter
-Data is then sent using MQTT Protocol using Adafruit.io as broker. 
+Data is then sent using MQTT Protocol using Adafruit.io as broker , and then displayed in adafruit's dashboard 
+Use Ticker to precisely read all data in a periodic time and EEPROM to backup filter's constant in case of sudden power spike in ESP32 board to avoid data loss.
