@@ -9,6 +9,7 @@ Using 4 Main Sensor :
 - Humidity and Temperature
 - Dust particle <br>
 <br>
+Used Analog multiplexer to read multiple analog data because ESP32 only have 1 8-bit analog-IN , and level shifter to shift ESP32's 3,3V HIGH voltage to 5V in order to match sensor's 5V level specification. 
 <br>
 Data is read by NodeMCU ESP32 Board , filtered using Averaging measurement and Recursive Exponential Filter
 Data is then sent using MQTT Protocol using Adafruit.io as broker , and then displayed in adafruit's dashboard 
