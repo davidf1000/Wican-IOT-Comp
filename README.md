@@ -10,4 +10,3 @@ Using 4 Main Sensor :
 - Dust particle 
 Data is read by NodeMCU ESP32 Board , filtered using Averaging measurement and Recursive Exponential Filter
 Data is then sent using MQTT Protocol using Adafruit.io as broker. 
-HAZARD MONITORING SYSTEM FOR MANUFACTURE INDUSTRY USING INTERNET OF THINGS-BASED APPROACH AND MQTT PROTOCOL
