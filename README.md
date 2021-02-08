@@ -15,6 +15,9 @@ Data is read by NodeMCU ESP32 Board , filtered using Averaging measurement and R
 Data is then sent using MQTT Protocol using Adafruit.io as broker , and then displayed in adafruit's dashboard 
 Use Ticker to precisely read all data in a periodic time and EEPROM to backup filter's constant in case of sudden power spike in ESP32 board to avoid data loss.
 <br>
+
 ![1001086](https://user-images.githubusercontent.com/47879766/107242285-65a95b80-6a5e-11eb-8d56-3afed4fe9876.jpg)
+
 ![1001088](https://user-images.githubusercontent.com/47879766/107242290-67731f00-6a5e-11eb-99de-7bb7a1e53143.jpg)
+
 ![1001087](https://user-images.githubusercontent.com/47879766/107242296-680bb580-6a5e-11eb-88e8-03db9491790b.jpg)
