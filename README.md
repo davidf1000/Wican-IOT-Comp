@@ -16,6 +16,10 @@ Data is then sent using MQTT Protocol using Adafruit.io as broker , and then dis
 Use Ticker to precisely read all data in a periodic time and EEPROM to backup filter's constant in case of sudden power spike in ESP32 board to avoid data loss.
 <br>
 
+![1646238411176](https://user-images.githubusercontent.com/47879766/162869453-f628bf0d-ad1b-4860-877e-a0486d633211.png)
+
+![1646238322762](https://user-images.githubusercontent.com/47879766/162869468-cc84bb4d-ec9f-444f-9011-ecc45902294a.png)
+
 ![1001086](https://user-images.githubusercontent.com/47879766/107242285-65a95b80-6a5e-11eb-8d56-3afed4fe9876.jpg)
 
 ![1001088](https://user-images.githubusercontent.com/47879766/107242290-67731f00-6a5e-11eb-99de-7bb7a1e53143.jpg)
